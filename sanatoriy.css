@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.start-head{
+    display: flex;
+    justify-content: space-between;
+  }
+.img-head-sunset{
+    background-color: rgb(55, 172, 226);
+}
+.logo-img{
+    background-image: url('logo.svg');
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+.phone-number{
+    color: whitesmoke;
+    font-size: larger;
+    font-size: 36px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.phone-number:hover{
+    color: rgb(199, 176, 132);
+}
+
+.button-head{
+    margin: auto 0;
+}
+button{
+    margin-left: 15px;
+    padding: 8px 12px;
+    background-color: rgb(255, 145, 10);
+    color: whitesmoke;
+    font-size: 20px;
+    border: 0px;
+}
+button:hover{
+    background-color: orangered;
+}
+.name-company{
+    color: whitesmoke;
+    font-size: 36px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.name-company:hover{
+    color: rgb(199, 176, 132);
+}
+.logo-name{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.phone-button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+  
+.card {
+    width: calc(30%);
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+  
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+  
+.card-image {
+    height: 220px;
+    background-size: 100% 100%;
+}
+  
+.card-info {
+    padding: 20px;
+}
+  
+.card-info h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+  
+.card-info p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+  
+.card-info button {
+    background-color: #0c7ae7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+  
+.card-info button:hover {
+    background-color: #0864c8;
+    cursor: pointer;
+}
+  @media screen and (max-width: 890px) {
+    .start-head {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .phone-button {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .button-head {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    .card{
+      width: calc(100% - 10px);
+    }
+  }
+footer {
+    background-color: #414040;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+    }
+.modalBody{
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: none;
+}
+.modal{
+  padding-top: 8px;
+    width: 250px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: #0864c8;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input1{
+    margin-top: 10px;
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+}
+.input2{
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.block-clipboard{
+    position: absolute;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #777;
+    color: #fff;
+    top: 0;
+    left: 0;
+    display: none;
+}

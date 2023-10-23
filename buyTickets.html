@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/air-datepicker/dist/css/datepicker.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/air-datepicker/dist/css/datepicker.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/air-datepicker/dist/js/datepicker.min.js"></script>
+  <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
+</head>
+  <link rel="stylesheet" href="buyTickets.css">
+  <title>Airline</title>
+</head>
+<body>
+  <div class="img-head-sunset">
+		<div class="start-head">
+			<div class="logo-name">
+				<a href="main.html"><div class="logo-img"></div></a>
+				<div class="name-company">Airline Tickets LLC</div>
+			</div>
+			<div class="phone-button">
+				<div class="phone-number">+78005553535</div>
+				<div class="button-head"><button onclick="document.location='main.html'">Главная</button></div>
+			</div>
+		</div>
+	</div>
+
+  <div class="choose-fly">
+    <select name="" id="">
+      <option id="Russia" value="Russia">Россия</option>
+      <option id="China" value="China">Китай</option>
+      <option id="Usa" value="Usa">Сша</option>
+      <option id="India" value="India">Индия</option>
+      <option id="Germany" value="Germany">Германия</option>
+      <option id="GB" value="GB">Великобритания</option>
+      <option id="France" value="France">Франция</option>
+      <option id="Italy" value="Italy">Италия</option>
+      <option id="Canada" value="Canada">Канада</option>
+      <option id="Brazil" value="Brazil">Бразилия</option>
+      <option id="Egypt" value="Egypt">Египет</option>
+      <option id="Armenia" value="Armenia">Армения</option>
+    </select>
+    <div class="departure">Город Отправления:<br>Новосибирск</div>
+    <select name="" id="">
+      <option value="">1 взрослый</option>
+      <option value="">2 взрослых</option>
+      <option value="">3 взрослых</option>
+      <option value="">4 взрослых</option>
+    </select>
+    <select name="" id="">
+      <option value="">1 ребенок</option>
+      <option value="">2 ребенка</option>
+      <option value="">3 ребенка</option>
+      <option value="">4 ребенка</option>
+    </select>
+    <select name="" id="">
+      <option value="">Эконом</option>
+      <option value="">Эконом +</option>
+      <option value="">Бизнес</option>
+    </select><br>
+    <div class="dep-cal">
+      <label for="departureDate">День вылета:</label>
+      <input type="date" id="departureDate">
+    </div>
+    
+    <div class="arr-cal">
+      <label for="arrivalDate">День прилета:</label>
+      <input type="date" id="arrivalDate">
+    </div>
+    <div class="found-ticket" requiered>Найти билеты</div>
+  </div>
+  <div class="ticket-card">
+    <div class="ticket-header">
+      <h2>Новосибирск - Нью-Йорк</h2>
+    </div>
+    <div class="ticket-details">
+      <p>Дата вылета: 10 июля 2023</p>
+      <p>Время вылета: 13:47</p>
+      <p>Авиакомпания: ABC Airlines</p>
+      <p>Номер рейса: ABC1</p>
+    </div>
+    <div class="ticket-header">
+      <h2>Новосибирск - Москва</h2>
+    </div>
+    <div class="ticket-details">
+      <p>Дата вылета: 10 августа 2023</p>
+      <p>Время вылета: 19:30</p>
+      <p>Авиакомпания: ABC Airlines</p>
+      <p>Номер рейса: A3</p>
+    </div>
+    <div class="ticket-header">
+      <h2>Новосибирск - Бостон</h2>
+    </div>
+    <div class="ticket-details">
+      <p>Дата вылета: 1 июля 2023</p>
+      <p>Время вылета: 15:00</p>
+      <p>Авиакомпания: ABC Airlines</p>
+      <p>Номер рейса: B1</p>
+    </div>
+    <div class="ticket-header">
+      <h2>Новосибирск - Токио</h2>
+    </div>
+    <div class="ticket-details">
+      <p>Дата вылета: 29 мая 2023</p>
+      <p>Время вылета: 19:50</p>
+      <p>Авиакомпания: ABC Airlines</p>
+      <p>Номер рейса: AB3</p>
+    </div>
+    <div class="ticket-header">
+      <h2>Новосибирск - Сан-Паулу</h2>
+    </div>
+    <div class="ticket-details">
+      <p>Дата вылета: 10 июня 2023</p>
+      <p>Время вылета: 15:30</p>
+      <p>Авиакомпания: ABC Airlines</p>
+      <p>Номер рейса: A23</p>
+    </div>
+    <div class="ticket-header">
+      <h2>Новосибирск - Санкт-Петербург</h2>
+    </div>
+    <div class="ticket-details">
+      <p>Дата вылета: 13 июля 2023</p>
+      <p>Время вылета: 15:30</p>
+      <p>Авиакомпания: ABC Airlines</p>
+      <p>Номер рейса: C12</p>
+    </div>
+  </div>
+
+<footer>
+    <p>&copy; 2023 Airline Tickets LLC. Bce права защищены.</p>
+    <p>Контакты: support@airlinetickets.com | 8 (800) 555-3535</p>
+    <p>Мы принимаем: Visa, Mastercard, American Express, Discover, Diners Club.</p>
+    <p>Мы в социальных сетях: <a href="https://www.facebook.com/">Facebook</a>, <a href="https://twitter.com/elonmusk">Twitter</a>, <a href="https://www.instagram.com/">Instagram</a>.</p>
+</footer>
+  <div class="block-clipboard">Скопировано</div>
+  <script src="buyTickets.js"></script>
+  <script src="calendar.js"></script>
+</body>
+</html>

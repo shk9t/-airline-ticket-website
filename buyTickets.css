@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.start-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-head-sunset{
+    background-color: rgb(55, 172, 226);
+}
+.logo-img{
+    background-image: url('logo.svg');
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+.phone-number{
+    color: whitesmoke;
+    font-size: larger;
+    font-size: 36px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.phone-number:hover{
+    color: rgb(199, 176, 132);
+}
+.button-head{
+    margin: auto 0;
+}
+button{
+    margin-left: 15px;
+    padding: 8px 12px;
+    background-color: rgb(255, 145, 10);
+    color: whitesmoke;
+    font-size: 20px;
+    border: 0px;
+}
+button:hover{
+    background-color: orangered;
+}
+.name-company{
+    margin-top: 30px;
+    width: fit-content;
+    height: fit-content;
+    color: whitesmoke;
+    font-size: 36px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.name-company:hover{
+    color: rgb(199, 176, 132);
+}
+.logo-name{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.phone-button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    flex-wrap: wrap;
+}
+.choose-fly{
+    display: flex;
+    justify-content: center;
+}
+.arr-cal{
+    margin-left: 10px;
+}
+option, select{
+    padding: 7px;
+    font-size: large;
+    background-color: whitesmoke;
+    margin-right: 10px;
+}
+.departure{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 5px;
+    font-size: large;
+    margin-left: 10px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.found-ticket{
+    flex-grow: 0;
+    margin-left: 10px;
+    background-color: orange;
+    color: black;
+    font-size: larger;
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.found-ticket:hover{
+    background-color: orangered;
+}
+footer {
+    background-color: #414040;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+.ticket-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+.ticket-header:hover{
+    background-color: #ccc;
+}
+.ticket-header{
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.ticket-header h2 {
+    margin: 0;
+}
+.ticket-details{
+    padding: 10px;
+}
+.ticket-details:hover{
+    background-color: #ccc;
+}
+.ticket-details p {
+    margin: 0;
+}
+.block-clipboard{
+    position: absolute;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #777;
+    color: #fff;
+    top: 0;
+    left: 0;
+    display: none;
+}
+    @media screen and (max-width: 1200px){
+        .img-head-sunset{
+            display: flex;
+            flex-direction: column;
+        }
+        .start-head{
+            display: flex;
+            flex-direction: column;
+        }
+        .choose-fly{
+            flex-wrap: wrap;
+        }
+        option, select{
+            padding: 7px;
+            font-size: large;
+            background-color: whitesmoke;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .departure{
+            background-color: whitesmoke;
+            width: fit-content;
+            padding: 5px;
+            font-size: large;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-left: 8px;
+            margin-top: 10px;
+        }
+          
+        input[type="date"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            margin-top: 10px;
+            margin-left: 8px;
+        }
+        .found-ticket{
+            background-color: orange;
+            color: black;
+            font-size: larger;
+            width: fit-content;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-left: 8px;
+        }
+        .found-ticket:hover{
+            background-color: orangered;
+        }
+    }

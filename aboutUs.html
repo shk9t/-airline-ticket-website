@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>О нашей компании - Airline Tickets LLC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+      }
+      h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      nav ul li:last-child {
+        margin-right: 0;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+      }
+      nav ul li a:hover {
+        color: #007bff;
+      }
+      section {
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      .mission {
+        background-color: #007bff;
+        color: #fff;
+        padding: 60px 20px;
+      }
+      .mission h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+      .mission p {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      .team {
+        background-color: #fff;
+        padding: 60px 20px;
+      }
+      .team h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      .team p {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      .cta {
+        background-color: #007bff;
+        color: #fff;
+        padding: 60px 20px;
+        text-align: center;
+      }
+      .cta h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+      .cta p {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      .cta a {
+        background-color: #fff;
+        color: #007bff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      }
+      .cta a:hover {
+        background-color: #007bff;
+        color: #fff;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+        footer p {
+        margin: 0;
+    } 
+        footer a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    @media (max-width: 767px) {
+        header {
+          padding: 10px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        ul {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        li {
+          margin: 10px 0;
+        }
+        section {
+          padding: 40px 0;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 16px;
+        }
+        .cta {
+          padding: 40px 20px;
+        }
+        .cta h2 {
+          font-size: 24px;
+        }
+        .cta p {
+          font-size: 16px;
+        }
+        .cta a {
+          font-size: 16px;
+        }
+      }
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Airline Tickets LLC</h1>
+      <ul>
+        <li><a href="main.html">Главная</a></li>
+        <li><a class ='redirectToOurContact' href="main.html" href="#country">О нас</a></li>
+        <li><a class ='redirectToOurContact' href="main.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="mission">
+    <div class="container">
+      <h2>Наша миссия</h2>
+      <p>Мы предоставляем качественный сервис по продаже авиабилетов и помогаем нашим клиентам выбрать наилучшие варианты для их поездок. Мы стараемся сделать процесс покупки билетов максимально простым и удобным.</p>
+    </div>
+  </section>
+  <section class="team">
+    <div class="container">
+      <h2>Наша команда</h2>
+      <p>Наша команда состоит из опытных профессионалов в области авиаперевозок, которые всегда готовы помочь нашим клиентам в любых вопросах, связанных с покупкой билетов. Мы стремимся предоставлять нашим клиентам самый высокий уровень обслуживания и делаем все возможное, чтобы удовлетворить их потребности.</p>
+    </div>
+  </section>
+  <section class="cta">
+    <div class="container">
+      <h2>Готовы к покупке?</h2>
+      <p>Наша компания предлагает широкий выбор авиабилетов по конкурентоспособным ценам. Мы уверены, что вы найдете у нас подходящий вариант для своей следующей поездки.</p>
+      <a href="buyTickets.html">Купить билеты</a>
+    </div>
+  </section>
+  <footer>
+    <p>© 2023 Airline Tickets LLC. Все права защищены. <a href="#">Политика конфиденциальности</a> | <a href="#">Условия использования</a></p>
+  </footer>
+  <script>
+    let redirectToOurContact = document.querySelector('.redirectToOurContact')
+    redirectToOurContact.addEventListener('click', () =>{
+        window.location = 'main.html'; 
+	      window.scrollBy(0, 200); 
+    })
+
+    
+  </script>
+</body>
+</html>
